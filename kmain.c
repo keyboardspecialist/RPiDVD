@@ -103,7 +103,7 @@ _kmain( unsigned int r0, unsigned int r1, unsigned int atags )
     {
         clr_and_drawmonoimg(&img, clr);
         
-        uint32_t nx, ny;
+        int32_t nx, ny;
         nx = img.x + dx;
         ny = img.y + dy;
         if(nx <= 0)
